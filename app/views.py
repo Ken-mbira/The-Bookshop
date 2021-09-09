@@ -6,4 +6,5 @@ def index():
     """
     View of the root page that is the index.html
     """
-    return render_template('index.html')
+    title = "THE BOOKSHOP"
+    return render_template('index.html',title = title)
