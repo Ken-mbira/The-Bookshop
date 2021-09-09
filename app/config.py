@@ -2,7 +2,7 @@ class Config:
     """
     General configuration parent class
     """
-    pass
+    BOOK_API_BASE_URL = 'https://www.googleapis.com/books/v1/volumes?q={}&key={}'
 
 class ProdConfig(Config):
     """
